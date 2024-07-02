@@ -1,0 +1,198 @@
+.container{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
+.full-content{
+    overflow: scroll;
+    height: 100%;
+    
+}
+
+.main{
+    height: 45rem;
+    color: yellow;
+    display: flex;
+    background-color: black;
+    width:fit-content;
+    margin-left: 15rem;
+
+}
+.side-bar{
+    height: 100%;
+    position: fixed;
+    width: 12rem;
+   
+}
+.content{
+    color: blue;
+    height: 100vh;
+    margin: -10rem 0 0 18rem;
+}
+.logo{
+    font-style: italic;
+    color: white;
+    margin-left: 2rem;
+}
+.nav-options{
+    color: white;
+    line-height: 3.5rem;
+    margin-left: 2rem;
+    opacity: 1;
+    
+}
+.nav-options a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 0.67rem;
+   
+}
+.nav-options:hover{
+ box-shadow:  grey;
+ 
+}
+.profile{
+    margin-top: 1rem;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url("assets/photo.jpg");
+    background-size: cover;
+  }
+  .photo{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url("assets/photo.jpg");
+    background-size: cover;
+
+  }
+  .username p{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+ div button{
+    padding-left: 8px;
+    padding-top: 5px;
+    border: 3px solid grey;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    background-color: grey;
+    color: #fff;
+    border-radius: 5px;
+ }
+ .followers{
+    color: #fff;
+    margin-top: 6rem;
+    margin-left: -29rem;
+    
+ }
+ .edit-profile{
+    color: #fff;
+    margin-top: 11rem;
+    margin-left: -7rem;
+ }
+ b{
+    color: #fff;
+    margin-top: 9rem;
+    margin-left: -18rem;
+ }
+ .story{
+    margin-top: 23rem;
+    margin-left: -19rem;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 6rem;
+ }
+ #one{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    margin-right: 3rem;
+    border-radius: 50%;
+    background-image: url("assets/photo1.jpg");
+    background-size: cover;
+ }
+ #two{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    margin-right: 3rem;
+    border-radius: 50%;
+    background-image: url("assets/photo2.jpg");
+    background-size: cover;
+ }
+ #three{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    margin-right: 3rem;
+    border-radius: 50%;
+    background-image: url("assets/photo3.jpg");
+    background-size: cover;
+
+ }
+ #four{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    margin-right: 3rem;
+    border-radius: 50%;
+    background-image: url("assets/profile.jpg");
+    background-size: cover;
+ }
+  .content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 28rem;
+  }  
+  .content button{
+    cursor: pointer;
+  }
+  .images{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-top: 10rem;
+    margin-left: -36rem;
+    
+  }
+ .footer{
+    color: white;
+    width: 100%;
+    display: flex;
+    margin-left: 30rem;
+    flex-direction: row;
+    margin-bottom: 3rem;
+
+ }
+ .blog{
+    margin-left: 2rem;
+    cursor: pointer;
+ }
+ .API{
+    margin-left: 2rem;
+    cursor: pointer;
+ }
+ .help{
+    margin-left: 2rem;
+    cursor: pointer;
+ }
+ .locate{
+    margin-left: 2rem;
+    cursor: pointer;
+ }
+.about{
+    cursor: pointer;
+}
+  
